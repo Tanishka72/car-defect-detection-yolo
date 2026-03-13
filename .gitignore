@@ -1,0 +1,56 @@
+# Virtual environments
+.venv/
+.venv-1/
+.venv-2/
+.venv-3/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (use Git LFS for these)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+# Data
+dataset/
+output/
+temp/
+*.zip
+*.tar.gz
+
+# Streamlit
+.streamlit/
