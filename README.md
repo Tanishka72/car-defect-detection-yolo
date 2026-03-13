@@ -1,8 +1,8 @@
-# Vehicle Damage Detector 🚗
+# Vehicle Damage Detector
 
 Advanced vehicle damage detection system using a custom-trained YOLOv8 model. Detects dents, scratches, cracks, glass shatter, lamp broken, and tire flat in vehicle images with high accuracy.
 
-**Model Status:** ✅ Trained and Production Ready
+**Model Status:** Trained and Production Ready
 **Latest Update:** March 2026
 
 ## Setup
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 ### Dataset Journey
 
@@ -77,7 +77,7 @@ YOLOv8 Model Training
 
 ---
 
-## 🔍 Research & Development Process
+## Research & Development Process
 
 ### Initial Research Phase
 - **Reference Source:** Multiple Kaggle vehicle damage detection datasets
@@ -94,11 +94,11 @@ YOLOv8 Model Training
   - Each image: unique damage patterns, vehicle orientations, environmental conditions
 
 ### Key Innovation
-✨ **Custom Synthetic Dataset Approach:** Combines knowledge from Kaggle datasets with AI-generated synthetic images for controlled, scalable training data
+**Custom Synthetic Dataset Approach:** Combines knowledge from Kaggle datasets with AI-generated synthetic images for controlled, scalable training data
 
 ---
 
-## 🤖 Model Training Details
+## Model Training Details
 
 ### Model Architecture
 - **Framework:** Ultralytics YOLOv8 (YOLOv8 Nano)
@@ -122,7 +122,7 @@ YOLOv8 Model Training
 - **Final Model:** `models/best.pt` (saved from best epoch)
 - **Validation Classes:** All 7 classes successfully detected
 - **Architecture Layers:** 130 layers
-- **Model Status:** ✅ Converged and production-ready
+- **Model Status:** Converged and production-ready
 
 ### Training Strategy
 
@@ -140,13 +140,13 @@ YOLOv8 Model Training
 5. **Phase 5:** Trained YOLOv8 Nano model on Google Colab
    - 212 training images, 54 validation images
    - 100 epochs with GPU acceleration
-   - Model convergence: ✅ Successful
+   - Model convergence: Successful
 6. **Phase 6:** Downloaded best.pt and integrated into local IMAGE ANALYZER app
 7. **Phase 7:** Testing and refinement (ongoing)
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Web Interface (Recommended)
 
@@ -163,12 +163,12 @@ streamlit run app.py
 Opens at **http://localhost:8501**
 
 **Features:**
-- ✅ Single image upload and detection
-- ✅ Batch ZIP file processing
-- ✅ Real-time confidence threshold adjustment
-- ✅ Annotated image preview
-- ✅ Export results as CSV/JSON
-- ✅ Download detection reports
+- Single image upload and detection
+- Batch ZIP file processing
+- Real-time confidence threshold adjustment
+- Annotated image preview
+- Export results as CSV/JSON
+- Download detection reports
 
 ### Command Line (Batch Processing)
 
@@ -205,7 +205,7 @@ requirements.txt       -- Python dependencies
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - CUDA 11.8+ (optional, for GPU acceleration)
@@ -223,7 +223,7 @@ numpy>=1.24.0
 
 ---
 
-## 🔗 Data Sources & References
+## Data Sources & References
 
 ### Primary Sources Used
 1. **Kaggle Datasets** (Reference)
@@ -243,17 +243,17 @@ numpy>=1.24.0
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 - **Classes Detected:** 7 (all successfully learned during training)
 - **Model Type:** YOLOv8 Nano (lightweight & fast)
 - **Inference Speed:** ~50-100ms per image on GPU
 - **Confidence Threshold:** Adjustable (default 0.25)
-- **Training Convergence:** ✅ Successful on 100 epochs
+- **Training Convergence:** Successful on 100 epochs
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### Windows Users
 
@@ -288,18 +288,18 @@ streamlit run app.py
 
 ---
 
-## 🎯 Model Features
+## Model Features
 
-✅ **Production Ready** - Trained on 266 synthetic images with 100 epochs
-✅ **Fast Inference** - YOLOv8 Nano for real-time detection
-✅ **7 Damage Classes** - Comprehensive vehicle damage detection
-✅ **Easy to Use** - Web UI and CLI interfaces
-✅ **Exportable Results** - CSV & JSON report generation
-✅ **GPU Optimized** - CUDA support for faster processing
+- **Production Ready** - Trained on 266 synthetic images with 100 epochs
+- **Fast Inference** - YOLOv8 Nano for real-time detection
+- **7 Damage Classes** - Comprehensive vehicle damage detection
+- **Easy to Use** - Web UI and CLI interfaces
+- **Exportable Results** - CSV & JSON report generation
+- **GPU Optimized** - CUDA support for faster processing
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Model trained exclusively on synthetic FLUX.1-schnell generated images
 - All classes successfully detected during validation
@@ -308,7 +308,7 @@ streamlit run app.py
 
 ---
 
-## 👤 Author
+## Author
 
 **Tanishka** - Vehicle Damage Detection AI Project
 - GitHub: [@Tanishka72](https://github.com/Tanishka72)
@@ -316,6 +316,6 @@ streamlit run app.py
 
 ---
 
-## 📜 License
+## License
 
 This project is open source and available under the MIT License.
